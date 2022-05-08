@@ -1,0 +1,189 @@
+body{
+  text-align: center;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url(https://wallpapercave.com/dwp1x/wp3262639.jpg);
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+h1, h2, h3,h4{
+  font-weight: 600;
+  text-align: center;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 2.5rem;
+  margin: 50% auto;
+  font-weight: 500;
+}
+p{
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.profile-pic{
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -43px 20px;
+  height: 500px;
+  width: 500px;
+  border:5px solid darkcyan;
+}
+ul, ol{
+  list-style: none;
+}
+hr{
+  border: dotted #d1d0d0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+table {
+   border-collapse: collapse;
+  margin: 50px;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: rgb(62, 182, 182);
+  color: white;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-row{
+  width: 60%;
+  margin: 120px auto;
+  text-align: left;
+  border-radius: 2%;
+  border:3px solid darkcyan;
+  box-shadow: 9px 5px 2px 1px rgba(67, 116, 131, 0.363);
+  
+}
+
+.code-img {
+  float: left;
+  margin-right: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border:5px solid pink;;
+}
+.code-img1{
+  float: left;
+  margin-right: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border:5px solid rgb(250, 29, 29);
+}
+.skill-img {
+  float: right;
+  margin-left: 60px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border:5px solid orangered;
+}
+.fas{
+  font-size: 15px;
+  padding: 10px;
+}
+
+input, textarea{
+  margin: 10px;
+  padding: 15px;
+  width: 90%;
+  border-radius: 25px;
+  border: 1px solid rgb(180, 180, 180);
+  color: rgb(185, 185, 185);
+}
+input:focus, textarea:focus{
+  margin:5px;
+
+}
+input[type=submit]{
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.footer-link{
+  color: #151616;
+  font-family:serif;
+  margin: 10px 20px;
+  
+}
+
+.intro-flex{
+  margin: 80px;
+}
+.flex{
+  display: flex; 
+}
+.flex-subdiv{
+  width: 50%;
+  
+}
+
+.bottom-container{
+  background-color: rgb(10, 202, 202); 
+  padding: 40px;
+  text-align: center;
+font-weight: 500;
+}
+.intro{
+  text-align:center; 
+  width: 85%;
+  font-weight: 500;
+  font-size: 1.09em;
+}
+.skill-para{
+  text-align: justify;
+   font-size:1.05em; 
+  font-weight: 600; 
+}
+.contact-div{
+  background-color: rgba(238, 252, 252, 0.781); 
+  padding: 50px;
+}
+
+.course-item{
+  padding: 80px;
+}
+.box-shadow{
+  box-shadow: 9px 5px 2px 1px rgba(90, 65, 65, 0.5);
+}
+.nav-item{
+  font-weight: 400;
+  
+}
+.nav-link{
+  color: white !important;
+}
+.nav-link:hover{color: black !important;}
+#about{
+  font-family:  'kerning active', Times, serif;
+  
+}
+.navbar-brand{
+  color: white !important;
+}
